@@ -55,6 +55,24 @@ python main.py
 
 ---
 
+## 🧮 Financial & Mathematical Methodology
+
+### 1. Weighted Average Buy Price
+When additional shares of an existing holding are purchased, the cost basis is dynamically recalculated:
+$$\text{New Average Price} = \frac{(\text{Current Qty} \times \text{Current Avg Price}) + (\text{New Qty} \times \text{New Buy Price})}{\text{Current Qty} + \text{New Qty}}$$
+
+### 2. Realised Profit / Loss (On Sale)
+When shares are sold, the average buy price remains unchanged, and realized P&L is locked in:
+$$\text{Realised P\&L} = (\text{Selling Price} - \text{Weighted Average Buy Price}) \times \text{Sold Quantity}$$
+
+### 3. Unrealised Profit / Loss (Open Holdings)
+$$\text{Unrealised P\&L} = (\text{Current Market Price} - \text{Weighted Average Buy Price}) \times \text{Held Quantity}$$
+
+### 4. Drawdown Percentage
+$$\text{Drawdown \%} = \frac{\text{Weighted Average Buy Price} - \text{Current Market Price}}{\text{Weighted Average Buy Price}} \times 100$$
+*(Alert triggers whenever $\text{Drawdown \%} > 10.0\%$)*
+
+---
 
 ## 🖥️ Terminal Interface & Menu Options
 

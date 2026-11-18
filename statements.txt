@@ -1,0 +1,21 @@
+==========================================================================
+  CP-006 PORTFOLIOIQ: EQUITY PORTFOLIO & P&L STATEMENT
+  Generated: 2026-11-18 09:32:18
+==========================================================================
+  Total Invested Capital : Rs. 196662.50
+  Current Market Value   : Rs. 200372.50
+  Total Realised P&L     : +4062.50 Rs.
+  Total Unrealised P&L   : +3710.00 Rs.
+  Net Portfolio P&L      : +7772.50 Rs.
+
+  HOLDINGS BREAKDOWN:
+  Symbol       Sector       Qty     Avg Buy         LTP     Unrealised
+  --------------------------------------------------------------------
+  TCS          IT            15     3887.50     3956.50       +1035.00
+  HDFCBANK     Banking       30     1650.00     1715.00       +1950.00
+  RELIANCE     Energy        15     2900.00     3000.00       +1500.00
+  TATAMOTORS   Auto          25      950.00      895.00       -1375.00
+  SUNPHARMA    Pharma        12     1800.00     1850.00        +600.00
+
+  DRAWDOWN ALERTS: None
+==========================================================================
